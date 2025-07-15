@@ -1,0 +1,156 @@
+.m-plus-rounded-1c-regular {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}  
+
+.fc-daygrid-day:hover {
+    cursor: pointer;
+    background-color: #e6f7ff; /* 任意：ホバー時の背景色変更もできるよ */
+}
+
+.fc-day-today.fc-daygrid-day:hover {
+    cursor: default;
+    background-color: inherit;
+}
+
+
+body {
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    background: radial-gradient(ellipse at bottom, #0d1b2a, #000000);
+    color: #fff;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #f1f3fa;
+}
+
+form {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p, a {
+    text-align: center;
+}
+
+/* input[type="text"],
+input[type="password"] {
+    padding: 8px;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+} */
+
+input[type="text"],
+input[type="date"],
+input[type="password"] {
+    background: #1e1e2f;
+    color: white;
+    border: 1px solid #4cc9f0;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 3px 0;
+}
+
+button[type="submit"] {
+    background: linear-gradient(135deg, #3a0ca3, #7209b7, #4361ee);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 6px 5px;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #7209b7;
+    transition: all 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    box-shadow: 0 0 15px #4cc9f0;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: rgb(120, 125, 222);
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+s {
+    color: #5337f6;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1.4em;
+      text-align: center;
+    }
+  
+    .tab-button {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      font-size: 1em;
+    }
+  
+    form {
+      text-align: center;
+    }
+  
+    input[type="text"],
+    input[type="date"] {
+      width: 100%;
+      margin: 5px 0;
+      box-sizing: border-box;
+    }
+  
+    button[type="submit"] {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    #calendar {
+      font-size: 0.85em;
+    }
+  
+    ul {
+      padding-left: 0;
+    }
+  
+    li {
+      display: block;
+      font-size: 0.95em;
+    }
+  }
+  
