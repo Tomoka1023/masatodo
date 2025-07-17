@@ -13,6 +13,7 @@ if (isset($_SESSION['user_id'])) {
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="favicon.png" type="image/png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>ToDoアプリまさ坊</title>
